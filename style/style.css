@@ -107,3 +107,123 @@
 .hero-button-image {
   height: 5vh;
 }
+
+@media screen and (max-width: 1280px) and (min-width: 768px) {
+  .nav-container {
+    height: 10vh;
+    background-color: #2b2922;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: blue; */
+  }
+  .nav-list {
+    background-color: #2b2922;
+    height: 10vh;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    color: #758283;
+    /* background-color: magenta; */
+    overflow: scroll;
+  }
+  .nav-logo {
+    margin: 5px;
+  }
+  .hero-section h1 {
+    /* width: 50vw; */
+    font-size: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    color: #fff;
+  }
+  .hero-image {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-container {
+    height: 400px;
+    background-color: #2b2922;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: blue; */
+  }
+  .nav-list {
+    background-color: #2b2922;
+    height: 350px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    color: #758283;
+    /* background-color: magenta; */
+    /* overflow-x: auto; */
+  }
+  .nav-logo {
+    margin: 0;
+    align-self: flex-start;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  .hero-section {
+    height: 40vh;
+    width: 100vw;
+    background-color: #2b2922;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  .hero-section h1 {
+    /* width: 50vw; */
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    color: #fff;
+  }
+  .hero-section h5 {
+    width: 80vw;
+    /* background-color: pink; */
+    color: #fff;
+    font-weight: 100;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .hero-image {
+    height: 40vh;
+  }
+  .hero-button {
+    height: 10vh;
+    width: 20vw;
+    background-color: #39372d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .active-button {
+    background-color: #a08f36;
+  }
+
+  .hero-button-image {
+    height: 5vh;
+  }
+}
